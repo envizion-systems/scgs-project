@@ -10,17 +10,15 @@ copyright: |
 #  <br><span class="md-footer-custom-text">emoji provided free by </span><a href="http://www.emojione.com">EmojiOne</a>
 
 nav:
-  - Introduction: index.md
-  - 'Project Scope':
-      - 'scope01': scope_01.html
-
-      - Delivery Platform: rest.md
-      - Resourcing: resourcing.md
-  - Summary: summary.md
-#     - About this project: about.md
-#     - Web Development:
-#         - Development Platform: dev-platform.md
-#         - Tech / Development Stack: tech-stack.md
+  - Introduction: scope_of_work.md
+  - 'SCGS REST API':
+      - 'roster_details': roster_details.md 
+      - 'create_roster': create_roster.md
+      - 'edit_roster': edit_roster.md
+      - 'confirmed_roster': confirmed_roster.md
+      - 'sign_in_out': sign_in_out.md
+      - 'delete_roster': delete_roster.md
+      - 'replace_roster': replace_roster.md
 
 #
 # mkdocs configuration settings
@@ -60,8 +58,8 @@ markdown_extensions:
   # Adds the ability to define abbreviations
   - abbr
   # Include files in other documents like {!some/dir/in/docs/filename.md!}
-  - markdown_include.include:
-      base_path: docs
+  # - markdown_include.include:
+  #     base_path: docs
   # Metadata support in pages
   # (https://squidfunk.github.io/mkdocs-material/extensions/metadata/)
   - meta
