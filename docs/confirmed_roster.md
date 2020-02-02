@@ -1,7 +1,17 @@
-# Confirmed Roster
+# Requested REST API: Confirmed Roster
 
-Confirmed Roster
-  a.	Parameter: Power Force ID, Status
-  b.	Status    
-  i.	1: Accepted
-  ii.	2:  Rejected
+This endpoint is to accept whether the employee has accepted or rejected the shift.
+
+### Required Permissions
+
+In order to use the {BASE_URL}/timecards/ endpoint, your consumer key must have the "Modify" permission.
+
+### Method URL
+```
+{BASE_URL}/timecards/<shiftid>/confirm
+```
+
+### Parameters
+```
+{"action_results":[true],"status":1}
+```

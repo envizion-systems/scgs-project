@@ -10,15 +10,17 @@ copyright: |
 #  <br><span class="md-footer-custom-text">emoji provided free by </span><a href="http://www.emojione.com">EmojiOne</a>
 
 nav:
-  - Introduction: scope_of_work.md
+  - Introduction: index.md
   - 'SCGS REST API':
       - 'roster_details': roster_details.md 
       - 'create_roster': create_roster.md
       - 'edit_roster': edit_roster.md
       - 'confirmed_roster': confirmed_roster.md
-      - 'sign_in_out': sign_in_out.md
+      - 'sign_in': sign_in.md
+      - 'sign_out': sign_out.md
       - 'delete_roster': delete_roster.md
       - 'replace_roster': replace_roster.md
+  - 'Powerforce REST API': powerforce-api.pdf
 
 #
 # mkdocs configuration settings
@@ -37,8 +39,8 @@ markdown_extensions:
       guess_lang: true
       linenums: true
   # Table of Contents
-  #- toc:
-  #   permalink: false
+  # - toc:
+  #  permalink: false
   # block-styled side content
   - admonition
   # linkafies URL and email links without having to wrap them in Markdown syntax. Also, allows shortens repository issue, pull request, and commit links.

@@ -1,4 +1,21 @@
 # Create Roster
 
-a.	Parameter: Site Code, Employee Code, Start Time, End Time, Job Date
-b.	Returns: Power Force ID
+The requested function here is to create a new shift onto the rosters
+
+At this stage this functionality is unavailable and in internal discussions within the development team
+
+### Method URL
+```
+{BASE_URL}/timecards/[?????]
+```
+
+### Parameters
+```
+
+{"action_results":[true],"status":1}
+```
+
+## RETURN
+{
+  New Roster
+}
