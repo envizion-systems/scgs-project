@@ -21,6 +21,7 @@ nav:
       - 'delete_roster': delete_roster.md
       - 'replace_roster': replace_roster.md
   - 'Powerforce REST API': powerforce-api.pdf
+  - Powerforce Web User config: web-users.md
 
 #
 # mkdocs configuration settings
